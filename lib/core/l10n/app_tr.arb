@@ -1,6 +1,6 @@
 {
-    "title":"Search App With Cubit",
+    "title":"Cubit ile arama uygulaması",
     "@title":{
-        "description": "Application title"
+        "description": "Uygulama başlığı"
     }
 }
