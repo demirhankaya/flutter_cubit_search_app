@@ -2,5 +2,25 @@
     "title":"Search App With Cubit",
     "@title":{
         "description": "Application title"
+    },
+    "user_name":"Name",
+    "@user_name":{
+        "description": "User name"
+    },
+    "user_surname":"Surname",
+    "@user_surname":{
+        "description": "User surname"
+    },
+    "user_job":"Job",
+    "@user_job":{
+        "description": "User job"
+    },
+    "user_note":"Note",
+    "@user_note":{
+        "description": "User note"
+    },
+    "user":"User",
+    "@user":{
+        "description": "User"
     }
 }

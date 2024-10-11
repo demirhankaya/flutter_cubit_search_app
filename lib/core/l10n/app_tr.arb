@@ -2,5 +2,25 @@
     "title":"Cubit ile arama uygulaması",
     "@title":{
         "description": "Uygulama başlığı"
+    },
+    "user_name":"Ad",
+    "@user_name":{
+        "description": "Kullanıcı Adı"
+    },
+    "user_surname":"Soyad",
+    "@user_surname":{
+        "description": "Kullanıcı soyadı"
+    },
+    "user_job":"Meslek",
+    "@user_job":{
+        "description": "Kullanıcı Mesleği"
+    },
+    "user_note":"Not",
+    "@user_note":{
+        "description": "Kullanıcı Notu"
+    },
+    "user":"Kullanıcı",
+    "@user":{
+        "description": "Kullanıcının kişisi"
     }
 }
