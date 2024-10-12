@@ -8,16 +8,23 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    ///
     return MaterialApp.router(
-        routerConfig: AppRouter,
+      debugShowCheckedModeBanner: false,
+      title: "Search App",
 
-        /// [L10n]
-        /// Delegate: Temsilci Listesi
-        localizationsDelegates: AppLocalizations.localizationsDelegates,
+      /// [Router]
+      routerConfig: appRouter,
 
-        /// Desteklenen Diller
-        supportedLocales: AppLocalizations.supportedLocales,
-        title: "Search App",
-        theme: MaterialTheme().dark());
+      /// [L10n]
+      /// Delegate: Temsilci Listesi
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+
+      /// Desteklenen Diller
+      supportedLocales: AppLocalizations.supportedLocales,
+
+      /// [Theme]
+      theme: MaterialTheme().dark(),
+    );
   }
 }

@@ -1,9 +1,8 @@
 enum AppRoutePath {
-  Search('/search'),
-  Profile('/profile');
+  search('/search');
 
-  const AppRoutePath(this.path);
-  final String path;
+  const AppRoutePath(this.page);
+  final String page;
 
-  String get name => path.replaceFirst('/', '');
+  String get name => page.replaceFirst('/', '');
 }
