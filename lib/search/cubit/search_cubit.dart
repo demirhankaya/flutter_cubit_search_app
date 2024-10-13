@@ -7,10 +7,8 @@ import '/data/data.dart';
 part 'search_state.dart';
 
 class SearchCubit extends Cubit<SearchState> {
-  ///
   SearchCubit() : super(const SearchState());
 
-  ///
   void searchUser(String name) {
     try {
       emit(
@@ -23,7 +21,6 @@ class SearchCubit extends Cubit<SearchState> {
               element.name!.toUpperCase().contains(name.toUpperCase()))
           .toList();
 
-      ///
       users.isEmpty
           ? emit(
               state.copyWith(
@@ -36,8 +33,6 @@ class SearchCubit extends Cubit<SearchState> {
                 users: users,
               ),
             );
-
-      ///
     } catch (e) {
       emit(
         state.copyWith(
